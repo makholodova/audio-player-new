@@ -1,0 +1,20 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}

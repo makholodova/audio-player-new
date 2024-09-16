@@ -1,0 +1,51 @@
+﻿.button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  filter: invert(1);
+  transition: transform 0.3s ease, filter 0.2s ease;
+  
+  &:hover {
+    filter: invert(0.4);
+  }
+
+  &:active {
+    filter: invert(0.3);
+    transform: scale(0.9);
+  }
+
+}
+
+.playPause {
+  width: 40px;
+  height: 40px;
+
+  &_play {
+    background-image: url("../icon/play.png");
+  }
+
+  &_pause {
+    background-image: url("../icon/pause.png");
+  }
+
+}
+
+.nextPrev {
+  width: 25px;
+  height: 25px;
+
+  &_next {
+    background-image: url("../icon/forward.png");
+  }
+
+  &_prev {
+    background-image: url("../icon/backward.png");
+  }
+
+}
+
+
