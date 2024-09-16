@@ -1,0 +1,28 @@
+﻿
+.footer {
+  /*background: #D9D9D9;
+  background: radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgba(218, 215, 214, 1) 100%);*/
+  background: $background-color;
+  background:$primary-gradient;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 16px;
+  color:$primary ;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  color:$primary;
+  display: flex;
+  align-items: center;
+}
+
+
+.footer-icon {
+  margin-right: 10px;
+}
